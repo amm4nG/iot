@@ -16,8 +16,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
                 <h1 class="text-white mb-4">Welcome to <span class="text-warning">Agro Industry Monitoring System</span> </h1>
-                <a href="" class="btn btn-warning ms-2" style="width: 7rem">Login</a>
-                <a href="" class="btn btn-warning ms-2" style="width: 7rem">Registrasi</a>
+                <a href="{{ url('login') }}" class="btn btn-warning ms-2" style="width: 7rem">Login</a>
+                <a href="{{ url('register') }}" class="btn btn-warning ms-2" style="width: 7rem">Registrasi</a>
             </div>
         </div>
     </div>
