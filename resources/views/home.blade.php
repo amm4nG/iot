@@ -21,7 +21,7 @@
             <div class="col-md-4 mb-3">
                 <div class="card p-3">
                     <div class="card-body">
-                        <h6 class="text-warning">Temperature</h6>
+                        <h6 class="text-warning">Temperature</h6> 
                             <h2 id="suhu" class="mt-3">{{ $suhu->suhu }}</h2>
 
                     </div>

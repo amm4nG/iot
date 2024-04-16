@@ -12,17 +12,18 @@
 </head>
 
 <body class="bg-green">
-    
-    @include('navbar.navbar-top')
-
-    @yield('content')
-    
-    @include('footer.footer')
+    <div class="container position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h1 class="text-white mb-4">Welcome to <span class="text-warning">Agro Industry Monitoring System</span> </h1>
+                <a href="" class="btn btn-warning ms-2" style="width: 7rem">Login</a>
+                <a href="" class="btn btn-warning ms-2" style="width: 7rem">Registrasi</a>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.com/libraries/Chart.js"></script>
-    @yield('scripts')
 </body>
 
 </html>
