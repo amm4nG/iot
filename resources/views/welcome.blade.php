@@ -21,8 +21,8 @@
                     jointure
                     horrible margaret suitable he
                     speedily.</p>
-                <a href="" class="btn text-white btn-outline-warning btn-login p-2" style="width: 7rem">Login</a>
-                <a href="" class="btn btn-warning btn-register p-2" style="width: 7rem">Register</a>
+                <a href="{{ url('login') }}" class="btn text-white btn-outline-warning btn-login p-2" style="width: 7rem">Login</a>
+                <a href="{{ url('register') }}" class="btn btn-warning btn-register p-2" style="width: 7rem">Register</a>
             </div>
         </div>
     </div>
